@@ -1,4 +1,4 @@
-# info-diffusion
+# Twitter Crawler
 
 ## Table of Contents
 
