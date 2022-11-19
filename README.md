@@ -8,7 +8,7 @@
 
 ## About
 
-Predict the temporal dynamics of information diffusion on Twitter
+For crawling Twitter Data. create a .env file that contains Twitter API access tokens
 
 ## Getting Started
 
