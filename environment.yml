@@ -1,0 +1,54 @@
+name: info-diffusion
+channels:
+  - districtdatalabs
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - pip:
+    - -e .  # conda >= 4.4 only
+    - python-dotenv>=0.5.1
+    - nbval
+    - nbdime
+    - pymc3-models
+  - setuptools
+  - wheel
+  - sphinx
+  - click
+  - coverage
+  - pytest-cov
+  - jupyter
+  - scikit-learn
+  - joblib
+  - nb_conda
+  - pandas
+  - requests
+  - python>=3.6
+  - arviz
+  - autopep8
+  - flake8
+  - imbalanced-learn
+  - ipython
+  - jedi
+  - matplotlib
+  - networkx
+  - nltk
+  - numpy
+  - progressbar2
+  - pylint
+  - pymc3
+  - pytables
+  - pytest
+  - scipy
+  - seaborn
+  - selenium
+  - sqlite
+  - sqlitedict
+  - textblob
+  - theano==1.0.4
+  - tweepy
+  - yellowbrick
+  - memory_profiler
+  - pymongo
+  - urllib3==1.25.3
